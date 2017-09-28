@@ -1,0 +1,45 @@
+* {
+   box-sizing: border-box;
+ }
+ 
+ .header,
+ .footer {
+   background-color: #800020;
+   color: teal;
+   padding: 15px;
+   <
+ }
+ 
+ .column {
+   float: left;
+   padding: 15px;
+ }
+ 
+ .clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ 
+ .menu {
+   width: 25%;
+ }
+ 
+ .content {
+   width: 75%;
+ }
+ 
+ .menu ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .menu li {
+   padding: 8px;
+   margin-bottom: 8px;
+   background-color: teal;
+   color: #ffffff;
+ }
+}
+<img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg"/>
