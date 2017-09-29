@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    .header,
+    .footer {
+      background-color: #800020;
+      color: teal;
+      padding: 15px;
+    }
+      
+   img {
+    float: right;
+}
+
+.clearfix {
+    overflow: auto;
+}
+      .column {
+        float: left;
+        padding: 15px;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .menu {
+        width: 25%;
+      }
+      .content {
+        width: 75%;
+      }
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: teal;
+        color: #ffffff;
+      }
+      
+     h1 {
+    text-align: center
+    
+    }
+   footer { text-align: center
+}
+   
+   
+   
+   }
+    <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg"/>
+
+  </style>
+
+  <body>
+   
+    <div class="header">
+      <h1>Enver Creek</h1>
+    </div>
+    
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li>
+          <a href="https://www.surreyschools.ca/schools/envercreek/About/Pages/default.aspx">More Information</a> </li>
+        <li><a href=https://www.surreyschools.ca/schools/envercreek/Departments/Pages/default.aspx>Departments</a> </li>
+        <li><a href=https://www.surreyschools.ca/schools/envercreek/Extra-curricular/Pages/default.aspx>Extra-Curricular</a>
+          
+          </li>
+        </ul>
+      </div>
+      <div class="column content">
+        <h1>Our School</h1>
+        <p1>Enver Creek is an amazing school, Our school is a very nice enviroment. We also have a lot of extra-curricluar activities. We also have a lot of clubs fro people to join. Our school is very diverse. We join and create clubs that are suitable for everyone </p1>
+      </div>
+      
+          <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg" style="width:290px;height 120px;:228px;">
+    </div>
+
+
+    <div class="footer">
+      <p2>Enver Creek is the best school in Surrey</p2>
+
+
+
+    </div>
