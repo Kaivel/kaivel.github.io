@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid teal;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: teal;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Enver Creek</h1>
+</header>
+  
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Departments</a></li>
+  </ul>
+</nav>
+<style>body {
+    color: maroon;
+}
+
+h1 {
+    color: maroon;
+}
+</style>
+<article>
+  <h1>Clubs</h1>
+  <p>Here at Enver Creek we have many different clubs. The clubs here are for everyone. We make sure no one feels leeft out and always has something to do. Some of our clubs are Ice Hockey, Ball Hockey, Soccer, Volleyball, Robtics, Charities, Basketball, Rugby etc.</p>
+  <p>These clubs are spread out threw the year so you will always have something to do.</p>
+</article>
+
+<footer>Clubs are a Great way to be part of your community.</footer>
+
+</div>
+
+</body>
+</html>
