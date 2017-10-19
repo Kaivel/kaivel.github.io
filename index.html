@@ -2,6 +2,68 @@
 
 <body>
 
+<style> * {
+  box-sizing: border-box;
+}
+
+.header,
+.footer {
+  background-color: lightblue;
+  color: grey;
+  padding: 15px;
+}
+
+img {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: orange;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center
+}
+
+footer {
+  text-align: center
+}
+
+
+}
+</style>
 
 
 
@@ -14,8 +76,8 @@
     <div class="clearfix">
       <div class="column menu">
         <ul>
-          <li><a href="">Menu</li>
-          <li><a href="">Locations</a></li>
+          <li><a href="https://kaivel.github.io/home.html">About Us</li>
+          <li><a href="https://kaivel.github.io/clubs.html">Locations</a></li>
         </ul>
       </div>
       <div class="column content">
