@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<body>
+
+<style> * {
+  box-sizing: border-box;
+}
+
+.header,
+.footer {
+  background-color: pink;
+  color: grey;
+  padding: 15px;
+}
+
+img {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: pink	;
+  color: #ffffff;
+}
+
+h1 {
+  text-align: center
+}
+
+footer {
+  text-align: center
+}
+
+
+}
+</style>
+
+
+
+  <body>
+
+    <div class="header">
+      <h1>Location</h1>
+    </div>
+
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li><a href="https://kaivel.github.io/home.html">About Us</li>
+          <li><a href="https://kaivel.github.io/clubs.html">Locations</a></li>
+        </ul>
+      </div>
+      <div class="column content">
+        <h1>Locations</h1>
+        <p>1.Prince George<br>
+           2.Surrey<br>
+           3.South Surrey<br>
+           4.Vancouver<br>
+        
+        </p>
+       
+      </div>
+
+      <img src="https://www.ydesignservices.com/wp-content/uploads/2016/07/Googlemap-600x551.jpg" style="width:290px;height 120px;:228px;">
+   </div>
+
+
+    <div class="footer">
+      <p2>Come to the best Indian cuisine in B.C.</p2>
+
+
+
+    </div>
+  </body>
